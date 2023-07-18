@@ -5,15 +5,18 @@ export default {
 		extend: {
 			colors: {
 				black: '#191919',
-				gray: {
-					light: '#eeeeee',
-					BRAND: '#dddddd'
-				},
 				green: '#5C946E',
 				primary: {
-					light: '#bdc1db',
-					BRAND: '#7880B5',
-					dark: '#414876'
+					100: '#eaeff5',
+					200: '#abc0d7',
+					300: '#6f93b8',
+					400: '#4775a3',
+					500: '#336699',
+					BRAND: '#336699',
+					600: '#2b5884',
+					700: '#234a70',
+					800: '#142f4a',
+					900: '#071727'
 				},
 				red: '#FC6471'
 			}
