@@ -19,6 +19,9 @@ export default {
 					900: '#071727'
 				},
 				red: '#FC6471'
+			},
+			fontFamily: {
+				nunito: ['Nunito', 'sans-serif']
 			}
 		}
 	},
