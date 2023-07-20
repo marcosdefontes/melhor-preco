@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
+    "@skeletonlabs/skeleton": "^1.10.0",
     "@storybook/addon-actions": "^7.1.0",
     "@storybook/addon-essentials": "^7.1.0",
     "@storybook/addon-interactions": "^7.1.0",

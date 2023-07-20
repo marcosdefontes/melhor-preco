@@ -1,29 +1,19 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+module.exports = {
+	// 1. Apply the dark mode class setting:
+	darkMode: 'class',
+	content: [
+		'./src/**/*.{html,js,svelte,ts}',
+		// 2. Append the path for the Skeleton NPM package and files:
+		// eslint-disable-next-line @typescript-eslint/no-var-requires
+		require('path').join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')
+	],
 	theme: {
-		extend: {
-			colors: {
-				black: '#191919',
-				green: '#5C946E',
-				primary: {
-					100: '#eaeff5',
-					200: '#abc0d7',
-					300: '#6f93b8',
-					400: '#4775a3',
-					500: '#336699',
-					DEFAULT: '#336699',
-					600: '#2b5884',
-					700: '#234a70',
-					800: '#142f4a',
-					900: '#071727'
-				},
-				red: '#FC6471'
-			},
-			fontFamily: {
-				nunito: ['Nunito', 'sans-serif']
-			}
-		}
+		extend: {}
 	},
-	plugins: ['prettier-plugin-tailwindcss']
+	plugins: [
+		'prettier-plugin-tailwindcss',
+		// eslint-disable-next-line @typescript-eslint/no-var-requires
+		...require('@skeletonlabs/skeleton/tailwind/skeleton.cjs')()
+	]
 };
