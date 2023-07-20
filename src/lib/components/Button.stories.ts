@@ -8,7 +8,11 @@ const meta = {
 	component: Button,
 	tags: ['autodocs'],
 	argTypes: {
-		// type: 'primary',
+		type: {
+			options: ['primary', 'secondary'],
+			description: 'Button type',
+			control: { type: 'select' }
+		}
 	}
 } satisfies Meta<Button>;
 
