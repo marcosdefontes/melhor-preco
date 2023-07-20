@@ -12,6 +12,14 @@ const meta = {
 			options: ['primary', 'secondary'],
 			description: 'Button type',
 			control: { type: 'select' }
+		},
+		isCircle: {
+			description: 'Circle Button',
+			control: 'boolean'
+		},
+		label: {
+			control: { type: 'text' },
+			description: 'Button Label'
 		}
 	}
 } satisfies Meta<Button>;
@@ -22,12 +30,14 @@ type Story = StoryObj<typeof meta>;
 // More on writing stories with args: https://storybook.js.org/docs/svelte/writing-stories/args
 export const Primary: Story = {
 	args: {
-		type: 'primary'
+		type: 'primary',
+		label: 'Primary'
 	}
 };
 
 export const Secondary: Story = {
 	args: {
-		type: 'secondary'
+		type: 'secondary',
+		label: 'Secondary'
 	}
 };
