@@ -24,16 +24,16 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="1.0444209"
-     inkscape:cx="280.53823"
-     inkscape:cy="344.68861"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="-557.20014"
+     inkscape:cy="446.89148"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
-     showguides="true">
+     showguides="false">
     <sodipodi:guide
        position="67.733335,67.733335"
        orientation="-1,0"
@@ -81,43 +81,48 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#bdc1db;stroke-width:0.270933;fill-opacity:1"
-       id="rect343"
-       width="67.733337"
-       height="67.733337"
-       x="67.733337"
-       y="67.733337" />
+       style="fill:#f4b860;fill-opacity:1;stroke-width:0.264583"
+       id="rect6052"
+       width="135.46667"
+       height="135.46667"
+       x="0"
+       y="0"
+       ry="16.14953" />
     <text
        xml:space="preserve"
        transform="matrix(0.5885062,0,0,0.5885062,-13.250158,-31.293034)"
        id="text121"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.333px;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect123);fill:#bdc1db;fill-opacity:1"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.333px;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect123);fill:#3d628f;fill-opacity:1"><tspan
          x="35.205078"
          y="150.4665"
-         id="tspan11656">+</tspan></text>
+         id="tspan6800">+</tspan></text>
+    <path
+       id="rect3820"
+       style="fill:#3d628f;fill-opacity:1;stroke-width:0.264583"
+       d="M 67.733335 67.733335 L 67.733335 135.46667 L 119.31727 135.46667 C 128.2641 135.46667 135.46667 128.2641 135.46667 119.31727 L 135.46667 67.733335 L 67.733335 67.733335 z " />
     <text
        xml:space="preserve"
        transform="matrix(0.5885062,0,0,0.5885062,48.276294,-31.25472)"
        id="text287"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.333px;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect289);fill:#bdc1db;fill-opacity:1"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.333px;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect289);fill:#3d628f;fill-opacity:1"><tspan
          x="35.205078"
          y="150.4665"
-         id="tspan11658">=</tspan></text>
+         id="tspan6802">=</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.5885062,0,0,0.5885062,-6.6409747,32.129959)"
        id="text449"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.333px;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect451);fill:#bdc1db;fill-opacity:1"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.333px;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect451);fill:#3d628f;fill-opacity:1"><tspan
          x="35.205078"
          y="150.4665"
-         id="tspan11660">x</tspan></text>
+         id="tspan6804">x</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.47323335,0,0,0.47323335,53.514217,46.877263)"
        id="text455"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.333px;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect457);fill:#444876;fill-opacity:1"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.333px;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect457);fill:#ffffff;fill-opacity:1"><tspan
          x="35.205078"
          y="163.74771"
-         id="tspan11662">✓</tspan></text>
+         id="tspan6806">✓</tspan></text>
   </g>
 </svg>

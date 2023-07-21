@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { AppShell } from '@skeletonlabs/skeleton';
 	// Custom Skeleton theme:
 	import '../theme.postcss';
 
@@ -7,4 +8,9 @@
 	import '../app.css';
 </script>
 
-<slot />
+<AppShell>
+	<svelte:fragment slot="header">Header</svelte:fragment>
+	<!-- Router Slot -->
+	<slot />
+	<svelte:fragment slot="footer">Footer</svelte:fragment>
+</AppShell>
