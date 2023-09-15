@@ -23,6 +23,8 @@
 		</div>
 	</svelte:fragment>
 	<!-- Router Slot -->
-	<slot />
+	<div class="p-6">
+		<slot />
+	</div>
 	<svelte:fragment slot="footer">Melhor preço</svelte:fragment>
 </AppShell>

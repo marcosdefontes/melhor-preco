@@ -4,7 +4,7 @@
 	export let data: PageData;
 </script>
 
-<ul class="flex flex-col gap-2 p-6">
+<ul class="flex flex-col gap-2">
 	{#each data.budgets as item (item.name)}
 		<BudgetListItem budget={item} />
 	{/each}
